@@ -8,7 +8,7 @@ import { Link, useHistory } from "react-router-dom";
 import "./Header.css";
 
 function Header({ backbutton }) {
-  const history = useHistory()
+  const history = useHistory();
 
   return (
     <div className="Header">
